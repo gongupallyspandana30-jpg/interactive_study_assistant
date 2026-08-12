@@ -2,7 +2,7 @@ import gradio as gr
 from google import genai
 from google.genai import types
 import os
-client = genai.Client(api_key=os.getenv("api_key"))
+client = genai.Client(api_key=os.getenv("APIKEY"))
 personalities={
     "Friendly":
   "You are a friendly, enthusiastic, and highly encouraging Study Assistant. Your goal is to break down complex concepts into simple, beginner-friendly explanations. Use analogies and real-world examples that beginners can relate to. Always ask a follow-up question to check understanding",
