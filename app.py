@@ -1,6 +1,4 @@
 import gradio as gr
-from IPython.utils.process import system
-!pip install -U google-genai
 from google import genai
 from google.genai import types
 import os
